@@ -26,7 +26,7 @@ export default function DashboardLayouts() {
         <div>
           <div className="p-8 mb-4">
             <h2 className="text-2xl font-bold tracking-tighter italic border-b border-maroon-400 pb-4">
-              INVOFEST
+              InvoFest Dashboard
             </h2>
           </div>
 
@@ -50,7 +50,7 @@ export default function DashboardLayouts() {
         <div className="p-6">
           <button
             onClick={handleLogout}
-            className="w-full bg-[#8B1D2E] hover:bg-red-800 text-white py-3 rounded-xl font-bold transition-all shadow-md border border-white/10"
+            className="w-full bg-[#b31c33cb] hover:bg-red-800 text-white py-3 rounded-xl font-bold transition-all shadow-md border border-white/10"
             type="button"
           >
             Logout

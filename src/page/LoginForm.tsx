@@ -31,6 +31,7 @@ export default function LoginForm() {
     resolver: zodResolver(schema),
   });
 
+    // fungsi ketika form disubmit
   const onSubmit = (data: FormData) => {
     if (loading) return;
     setLoading(true);
